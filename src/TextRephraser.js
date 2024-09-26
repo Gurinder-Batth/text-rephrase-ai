@@ -93,6 +93,9 @@ const TextRephraser = () => {
                     {copySuccess && <p className="mt-2 text-green-500">{copySuccess}</p>}
                 </div>
             )}
+        <div className='mt-4'>
+          <p className='mt-4'>Author: <a href="https://www.linkedin.com/in/gurinderpal-batth/" className='text-blue-500'> Gurinderpal Singh</a> , <a href="https://www.linkedin.com/in/mohit-singh-66b1441a4/" className='text-blue-500'>Mohit Singh</a> </p>
+        </div>
         </div>
     );
 };
